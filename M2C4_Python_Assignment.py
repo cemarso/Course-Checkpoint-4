@@ -55,7 +55,7 @@ print(my_tuple[1])
 # Exercise 6: Add an element to the end of your list.
 
 my_list = ['fruit', 'milk', 'rice']
-my_list += ['butter']
+my_list.append('butter')
 print(my_list)
 
 
@@ -77,7 +77,7 @@ print(my_sorted_list)
 # Exercise 9: Use reassignment to add an element to your tuple.
 
 my_tuple = ('fruit', 'milk', 'rice')
-my_tuple = my_tuple + ('butter',)
+my_tuple += ('butter',)
 print(my_tuple)
 
 
